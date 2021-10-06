@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "orwrap"
+authors = ["Marian Meyer"]
+version = "0.1.0"
+description = ""
+
+[tool.poetry.dependencies]
+python = "^3.8.2"
+ortools = "9.0.9048"
+numpy = "1.21.2"
+scipy = "1.7.1"
+cython = "0.29.24"
+
+[build-system]
+requires = [
+  "wheel",
+  "cython",
+  "ortools",
+  "setuptools",
+  "poetry-core"
+]
+build-backend = "poetry.core.masonry.api"
